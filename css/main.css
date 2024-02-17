@@ -21,21 +21,20 @@ body {
 
 
 
-/*===================SECCION NUESTRO EQUIPO MAPA==========================*/
+/*===================UBICACION==========================*/
 #local {
     margin-top:50px;
     background-color: #f3f3f3;
     display:flex;
     justify-content: center; 
     padding-bottom: 300px; 
+    
 }
 
 .mapa {
-    background: url(../img/mapa.png);
     width:100%;
     height:500px;
 }
-
 
 .wrapper-local {
     width:50%;
@@ -44,29 +43,7 @@ body {
 }
 
 
-/*===========================SECCION EQUIPO MIAMI==================================*/
-#numeros-local{
-    margin:0 !important;
-    padding:0 !important;
-}
-#numeros-local div {
-    padding: 0 20px 0 0;   
-    text-align:left;
-    height:48px;
-}
-
-#numeros-local div:not(:last-child) {
-    border-right: 2px solid #3f3f3f;
-  }
-#numeros-local div:not(:first-child) {
-    padding-left:20px;
-  }
-
-#numeros-local p{
-    margin:0;
-}
-
-/*=========================CONTACTOS BACKGROUND================================*/
+/*=========================FORMULARIO================================*/
 
 #bg-contactos{
     position:relative;
@@ -79,8 +56,6 @@ body {
     position:relative;
 }
 
-/*=========================CONTACTOS FORMULARIO================================*/
-
 #contenedor-formulario{
     position:absolute;
     top:30%;
@@ -91,9 +66,6 @@ body {
     
 }
 
-#titulo-formulario {
-    color: #3f3f3f;
-}
 
 .form-text{visibility:hidden};
 
@@ -110,7 +82,7 @@ footer p{
 }
 
 
-/*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
+/*=========================MEDIA QUERIES================================*/
 
 @media (max-width:1200px){
     #intro, #equipo {
@@ -129,7 +101,7 @@ footer p{
    }
  
 }
-/*=========================MEDIA QUERIES PANTALLA SM================================*/
+
 
 
 @media (max-width:768px) {
@@ -162,7 +134,7 @@ footer p{
 
 
 }
-/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+
 
 @media (max-width: 576px) {
     #servicios-fila-2 {

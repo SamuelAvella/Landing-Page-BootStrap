@@ -16,7 +16,7 @@ typewriter
  /**************************funciones de validación del formulario de index.html***************************/
 
 function validacion(){
-  let correcto = true;
+  var correcto = true;
   let nombre=document.getElementById('nombre').value;
   let email=document.getElementById('email').value;
   let provincia=document.getElementById('provincia').value;
